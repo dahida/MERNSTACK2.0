@@ -1,0 +1,96 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.navbar-container{
+    display: flex;
+    align-items:center;
+   
+}
+.navbar-container img{
+    margin-top: 10px;
+    margin-left: 230px;
+}
+.list{
+    margin-left: 20px;
+}
+.list-item{
+    display: inline-flex;
+    margin: 30px;
+    height:15px;
+    justify-content: space-around;
+   font-family: Poppins;
+   font-weight: 500;
+   font-size: 20px;
+   color: rgb(189, 183, 200);
+}
+.list-item:hover{
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(31, 30, 30);
+}
+
+.nav-button{
+    margin-top: 10px;
+    margin-left: 500px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#7475da;
+    border-radius: 10px;
+    border-color: #5556b1;
+    border-width: 0px;
+    width: 170px;
+    height: 60px;
+        
+}
+.banner-container{
+    display: flex;
+}
+.heading-text{
+    line-height: 90px;
+    margin-top: 140px;
+    margin-left: 230px;
+    font-family:Poppins;
+    font-weight: 500;
+    font-size: 80px;
+    color:rgb(77, 60, 121);
+    
+}
+.heading-text span{
+    color:rgb(118, 119, 218);
+}
+.description{
+    margin-top: 25px;
+    margin-left: 230px;
+    padding-right: 200px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(108, 107, 116);
+    line-height: 30px;
+    
+}
+.banner-container button{
+    margin-top: 90px;
+    margin-left: 230px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#5556b1;
+    border-radius: 10px;
+    border-color: #5556b1;
+    border-width: 0px;
+    width: 240px;
+    height: 70px;
+}
+.banner-container img{
+    margin-top: 40px;
+    align-self: flex-end;
+    width: 1036.5px;
+}
