@@ -1,0 +1,100 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    position: relative;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    display: inline-flex;
+    width: 1920.4px;
+    height: 80px;
+}
+.navbar img{
+    margin-left: 150px;
+    margin-top: 25px;
+    height: 30px;
+    width:auto;
+}
+
+.grow-list{
+    font-family: poppins;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.list{
+    display: flex;
+}
+.list-item{
+    margin-left: 80px;
+    display:inline;
+    color:aliceblue;
+}
+
+.button-small{
+    font-family: poppins;
+   margin-top: 25px;
+   margin-left: 500px;
+   height: 40px;
+   width: 180px;
+    background-color: rgb(191,6,193);
+    color: azure;
+    border-radius: 6px;
+    border-color: transparent;
+}
+.hero{
+    align-items: normal;
+    background-position: center;
+    background-image: url(./assets/bg.png);
+    background-attachment:local;
+    background-size:contain;
+    height: 849px;
+    width: 1920px;
+    margin-top:0px;
+
+}
+.hero-heading{
+   position:absolute;
+   margin-top: 135px;
+   margin-left: 300px;
+   margin-right: 300px;
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 90px;
+   text-align: center;
+   color: #ffffff;
+}
+
+.hero-description{
+    position: absolute;
+    justify-content: center;
+    margin-top: 360px;
+    margin-left: 590px;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    font-family: poppins;
+    align-content: center;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.button-large{
+    margin-top: 500px;
+    margin-left: 750px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    height: 54.6px;
+    width: 300px;
+    background-color: rgb(191,6,193);
+    color: azure;
+    border-radius: 6px;
+    border-color: transparent;
+}
