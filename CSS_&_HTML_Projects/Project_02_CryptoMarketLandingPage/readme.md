@@ -2,4 +2,4 @@
 
 `Assests are Provided!`
 
-![Project 02](./output%20.png)
+![Project 02](./output.png)
