@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    .blur-bg {
+        backdrop-filter: blur(50px);
+    }
+    html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Gaming Landing Page</title>
+</head>
+<body  class="font-[Poppins] overflow-x-hidden">
+    <section class="relative">
+        <!-- BACKGROUND IMAGE -->
+        <div class="absolute -z-10 w-full h-[100vh] bg-no-repeat bg-cover bg-top" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./Assets/Photos/futuristic-bg.png);"></div>
+        <!-- NAV-BAR -->
+        <nav class="bg-transparent relative container mx-auto px-5 pt-5 md:pt-20 md:px-0">
+            <!-- FLEX CONTAINER -->
+            <div class="flex items-center justify-between">
+                <div class="items-center justify-between space-x-32 md:flex">
+                    <img class="max-w-[75%] md:max-w-[100%]" src="./Assets/Icons/Logo.svg" alt="logo">
+                    <!-- NAVIGATION MENU -->
+                    <div class="hidden space-x-20 text-white opacity-90 md:flex">
+                        <a href="#" class="md:hover:text-[#f4694e]">Home</a>
+                        <a href="#" class="md:hover:text-[#f4694e]">Categories</a>
+                        <a href="#" class="md:hover:text-[#f4694e]">How it work</a>
+                        <a href="#" class="md:hover:text-[#f4694e]">Pricing</a>
+                    </div>
+                </div>
+                
+                <!-- BUTTONS -->
+                <div class="hidden space-x-2 md:block">
+                    <!-- SIGN IN -->
+                    <a href="#" class="text-white md:hover:shadow-xl md:duration-300 md:ease-in-out md:hover:text-[#f4694e] px-8 py-3 font-medium md:hover:text-white md:hover:bg-[#f4694e]">Sign In</a>
+                    <!-- SIGN UP -->
+                    <a href="#" class="text-white bg-[#f4694e] px-8 py-3 font-medium md:duration-300 md:ease-in-out md:hover:outline md:hover:outline-2 md:hover:outline-white md:hover:bg-transparent">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO CONTAINER -->
+        <div class="px-5 my-10 flex flex-col gap-60 md:flex-row md:px-40 md:py-20">
+            <!-- LEFT CONTAINER -->
+            <div class="flex flex-col gap-8 md:gap-18">
+                <h1 class="text-white font-bold text-3xl leading-snug md:text-6xl md:leading-normal md:max-w-2xl">Play Game Everytime Always Be Winner And Strong</h1>
+                <p class="text-white opacity-60 text-sm  leading-normal max-w-sm md:max-w-xl">Improve your gaming skills by playing games that are currently popular so that you don't go out of style improve skills</p>
+                <!-- ACTION BUTTONS -->
+                <div class="flex flex-col md:flex-row items-center gap-7 mx-auto md:mx-0 md:self-start">
+                    <a href="#" class="px-28 py-3 text-white font-semibold bg-[#f4694e] md:px-12 md:py-3.5 md:hover:outline md:hover:outline-2 md:hover:outline-white md:hover:bg-transparent">Get started</a>
+                    <a href="#" class="px-28 py-3 text-white font-semibold outline outline-2 outline-white md:px-12 md:py-3 md:hover:text-white md:hover:outline-0 md:hover:bg-[#f4694e]">Learn more</a>
+                </div>
+            </div>
+            <!-- RIGHT CONTAINER -->
+            <div class="relative flex flex-col gap-10 md:gap-40 md:mt-32">
+                <div class="mx-auto">
+                    <img class="w-24 md:w-20" src="./Assets/Icons/playButton.svg" alt="play-button">
+                </div>
+                <div class="relative flex space-x-20">
+                    <img class="absolute top-6 left-5" src="./Assets/Icons/dash.svg" alt="dash">
+                    <p class="text-white text-2xl max-w-[15rem] font-medium md:text-4xl md:max-w-[24rem] md:leading-snug md:font-normal">The King Of Terania And Last Seasion XXIV</p>
+                    <img class="absolute bottom-0 -right-20" src="./Assets/Icons/rightArrow.svg" alt="right-arrow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHITE SECTION -->
+    <section class="bg-white ">
+        <h2 class="text-3xl font-bold py-10 max-w-xs leading-snug mx-auto text-center md:text-6xl md:max-w-5xl md:leading-snug md:pt-32">
+            The Most Popular Games About Fighting And Wars
+        </h1>
+        <!-- GAME CARD CONTAINER -->
+        <div class="flex flex-col md:flex-row md:px-32">
+            <!-- THE SOLDIER WAR -->
+            <div class="relative flex flex-col items-center mx-auto bg-cover bg-no-repeat bg-[100%] h-[400px] w-[370px]" style="background-image: url(./Assets/Photos/image\ 2.png);">
+                <div class="absolute px-3 py-5 bottom-0 right-0 left-0 flex items-center justify-between gap-5 blur-bg">
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-white font-semibold">The Soldier War</h3>
+                        <p class="text-white opacity-50">Actions</p>
+                        <div class="flex flex-row gap-1">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="bg-[#f4694c] text-white font-semibold px-5 py-3 md:hover:outline md:hover:outline-white md:hover:outline-2 md:hover:bg-transparent">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- THE WARRIORS IX -->
+            <div class="relative flex flex-col items-center mx-auto bg-cover bg-no-repeat bg-center bg-[100%] h-[400px] w-[370px]" style="background-image: url(./Assets/Photos/image\ 4.png);">
+                <div class="absolute px-3 py-5 bottom-0 right-0 left-0 flex items-center justify-between gap-5 blur-bg">
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-white font-semibold">The Warriors IX</h3>
+                        <p class="text-white opacity-50">Actions</p>
+                        <div class="flex flex-row gap-1">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="bg-[#f4694c] text-white font-semibold px-5 py-3 md:hover:outline md:hover:outline-white md:hover:outline-2 md:hover:bg-transparent">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- PUBJIKEN DAK -->
+            <div class="relative flex flex-col items-center mx-auto bg-cover bg-no-repeat bg-center bg-[100%] h-[400px] w-[370px]" style="background-image: url(./Assets/Photos/image\ 3.png);">
+                <div class="absolute w-full px-3 py-5 bottom-0 right-0 left-0 flex items-center justify-between gap-5 blur-bg">
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-white font-semibold">Pubjiken Dak</h3>
+                        <p class="text-white opacity-50">Actions</p>
+                        <div class="flex flex-row gap-1">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="bg-[#f4694c] text-white font-semibold px-5 py-3 md:hover:outline md:hover:outline-white md:hover:outline-2 md:hover:bg-transparent">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- GARELA MENIHEM -->
+            <div class="relative flex flex-col items-center mx-auto bg-cover bg-no-repeat bg-center bg-[100%] h-[400px] w-[370px]" style="background-image: url(./Assets/Photos/Rectangle\ 56.png);">
+                <div class="absolute px-3 py-5 bottom-0 right-0 left-0 flex items-center justify-between gap-5 blur-bg">
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-white font-semibold">Garela Menihem</h3>
+                        <p class="text-white opacity-50">Actions</p>
+                        <div class="flex flex-row gap-1">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                            <img src="./Assets/Icons/Star 1.svg" alt="star">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="bg-[#f4694c] text-white font-semibold px-5 py-3 md:hover:outline md:hover:outline-white md:hover:outline-2 md:hover:bg-transparent">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WAR GAME CONTAINER -->
+        <div class="mt-40 mb-16 px-40 ">
+            <!-- WAR GAME DESCRIPTION -->
+            <div class="flex flex-col  md:flex-row gap-10 md:gap-10">
+                <div class="w-full h-[450px] bg-no-repeat bg-cover bg-center md:w-[600px]" style="background-image: url(./Assets/Photos/Rectangle\ 57.png);"></div>
+                <div class="flex flex-col gap-5 items-center justify-between">
+                    <h2 class="font-bold text-3xl leading-normal md:text-5xl md:leading-normal md:max-w-xl">
+                        A War Game That Will Get Your Adrenaline Pumping
+                    </h2>
+                    <p class="text-[#808080] px-20 md:max-w-3xl ">
+                        This is the best episode that we present to you, we collect all over asia and we present it to you only for you, our special customer, this is an episode discussing the design of various types of design
+                    </p>
+                    <div class="mx-auto flex flex-row gap-8 md:mx-20 md:self-start">
+                        <button class="bg-[#f4694e] px-5 py-3 text-white font-medium md:hover:outline md:hover:outline-2 md:hover:outline-text-[#f4694e] md:hover:bg-white md:hover:text-[#f4694e]">Explore Now</button>
+                        <button class="outline outline-2 outline-[#f4694e] px-5 py-3 text-[#f4694e] font-medium md:hover:text-white md:hover:bg-[#f4694e]">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RECOMMENDED GAMES -->
+        <div class="flex flex-col gap-5 my-24 md:gap-10 md:px-32">
+            <!-- HEADING CONTAINER -->
+            <div class="flex flex-col gap-5 md:flex-row md:justify-between md:w-full">
+                <!-- HEADING -->
+                <h2 class="px-5 font-bold text-center mx-auto text-3xl max-w-sm md:text-5xl md:max-w-3xl md:text-start md:leading-snug md:mx-0">
+                    Games Recommended For You this Week
+                </h2>
+                <!-- ARROWS -->
+                <div class="flex items-center mx-auto gap-5 md:mx-0">
+                    <img class="bg-[#fde1db] px-4 w-16 h-16 shadow-xl sm:shadow-slate-300" src="./Assets/Icons/leftArrow.svg" alt="leftArrow">
+                    <img class="bg-[#f4694c] px-4 w-16 h-16 shadow-xl sm:shadow-slate-300" src="./Assets/Icons/rightArrow.svg" alt="rightArrow">
+                </div>
+            </div>
+            <!-- GAMES CONTAINER-->
+            <div class="px-10 flex flex-col gap-24">
+                <!-- FIRST -->
+                <div class="flex flex-col gap-20 md:w-full md:mx-auto md:flex-row md:justify-between md:items-center">
+                    <!-- HUMAN BATTLE -->
+                    <div class="flex flex-col gap-4 md:flex-row md:w-1/2">
+                        <div>
+                            <!-- BACKGROUND -->
+                            <div class="mx-auto w-[250px] h-[300px] bg-no-repeat bg-cover bg-center" style="background-image: url(./Assets/Photos/Rectangle\ 75.png);"></div>
+                        </div>
+                        <div class="flex gap-4 flex-col md:justify-between">
+                            <!-- HEADING -->
+                            <h2 class="font-semibold text-2xl text-center md:text-start md:text-3xl">The world's strongest human battle</h2>
+                            <!-- CATEGORY -->
+                            <p class="text-center mx-auto text-[#f4694e] font-medium md:text-start md:mx-0">Action, Sport</p>
+                            <!-- GAME DESCRIPTION -->
+                            <p class="text-[#808080] text-center mx-auto md:mx-0 md:text-start">This is a game about the battle of the strongest human on earth</p>
+                            <!-- DOWNLOAD BUTTON -->
+                            <button class="bg-[#f4694e] mx-auto px-8 py-3 text-white font-semibold md:mx-0 md:self-start md:hover:text-[#f4694e] md:hover:outline md:hover:outline-1 md:hover:outline-[#f4694e] md:hover:bg-transparent">Download</button>
+                        </div>
+                    </div>
+                    <!-- SNAKE CAVE DANGER -->
+                    <div class="flex flex-col gap-4 md:flex-row md:w-1/2">
+                        <div>
+                            <!-- BACKGROUND -->
+                            <div class="mx-auto w-[250px] h-[300px] bg-no-repeat bg-cover bg-center" style="background-image: url(./Assets/Photos/Rectangle\ 76.png);"></div>
+                        </div>
+                        <div class="flex flex-col gap-4 md:justify-between">
+                            <!-- HEADING -->
+                            <h2 class="font-semibold text-2xl text-center md:text-start md:text-3xl">Adventure in snake cave danger</h2>
+                            <!-- CATEGORY -->
+                            <p class="text-center mx-auto text-[#f4694e] font-medium md:text-start md:mx-0">Adventure, Actions</p>
+                            <!-- GAME DESCRIPTION -->
+                            <p class="text-[#808080] text-center mx-auto md:mx-0 md:text-start">Adventure in a dangerous snake cave with friends who were going on vacations</p>
+                            <!-- DOWNLOAD BUTTON -->
+                            <button class="bg-[#f4694e] mx-auto px-8 py-3 text-white font-semibold md:mx-0 md:self-start md:hover:text-[#f4694e] md:hover:outline md:hover:outline-1 md:hover:outline-[#f4694e] md:hover:bg-transparent">Download</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SECOND -->
+                <div class="flex flex-col gap-20 md:w-full md:flex-row md:mx-auto md:justify-between md:items-center">
+                    <!-- SPIDER MASK -->
+                    <div class="flex flex-col gap-4 md:flex-row md:w-1/2">
+                        <div>
+                            <!-- BACKGROUND -->
+                            <div class="mx-auto w-[250px] h-[300px] bg-no-repeat bg-cover bg-center" style="background-image: url(./Assets/Photos/Rectangle\ 77.png);"></div>
+                        </div>
+                        <div class="flex flex-col gap-4 md:justify-between">
+                            <!-- HEADING -->
+                            <h2 class="font-semibold text-2xl text-center md:text-start md:text-3xl">Super hero wearing spider mask</h2>
+                            <!-- CATEGORY -->
+                            <p class="text-center mx-auto text-[#f4694e] font-medium md:text-start md:mx-0">Strategy, Action</p>
+                            <!-- GAME DESCRIPTION -->
+                            <p class="text-[#808080] text-center mx-auto md:mx-0 md:text-start">A super hero wearing a spider mask who helps many people in the world</p>
+                            <!-- DOWNLOAD BUTTON -->
+                            <button class="bg-[#f4694e] mx-auto px-8 py-3 text-white font-semibold md:mx-0 md:self-start md:hover:text-[#f4694e] md:hover:outline md:hover:outline-1 md:hover:outline-[#f4694e] md:hover:bg-transparent">Download</button>
+                        </div>
+                    </div>
+                    <!-- MILLION POWERS -->
+                    <div class="flex flex-col gap-4 md:flex-row md:w-1/2">
+                        <div>
+                            <!-- BACKGROUND -->
+                            <div class="mx-auto w-[250px] h-[300px] bg-no-repeat bg-cover bg-center" style="background-image: url(./Assets/Photos/Rectangle\ 78.png);"></div>
+                        </div>
+                        <div class="flex flex-col gap-4 md:justify-between">
+                            <!-- HEADING -->
+                            <h2 class="font-semibold text-2xl text-center md:text-start md:text-3xl">Masked hero with a million powers</h2>
+                            <!-- CATEGORY -->
+                            <p class="text-center mx-auto text-[#f4694e] font-medium md:text-start md:mx-0">Adventure</p>
+                            <!-- GAME DESCRIPTION -->
+                            <p class="text-[#808080] text-center mx-auto md:mx-0 md:text-start">Omongken is best podcast that you is the best podcast that you can use</p>
+                            <!-- DOWNLOAD BUTTON -->
+                            <button class="bg-[#f4694e] mx-auto px-8 py-3 text-white font-semibold md:mx-0 md:self-start md:hover:text-[#f4694e] md:hover:outline md:hover:outline-1 md:hover:outline-[#f4694e] md:hover:bg-transparent">Download</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOST PLAYED SECTION -->
+    <section class="bg-black px-5 py-16 mx-auto">
+        <!-- MOST PLAYED GAMES CONTAINER -->
+        <div class="md:relative">
+            <div class="space-y-5">
+                <h1 class="text-white text-center text-4xl max-w-[22rem] font-semibold md:mb-32 md:text-5xl md:max-w-lg md:mx-auto md:leading-snug">
+                    Most Played Games Of The Year
+                </h1>
+                <p class="text-white opacity-60 text-center mx-auto text-xs md:hidden">
+                    We have data on the most played games this year and as a result, games about battles and wars are very popular with gamers at this time, so we recommend <span class="md:block">this game into your cart to be used as your game.</span>
+                </p>
+            </div>
+            <div class="w-full relative -right-3 -bottom-5 -z-index-10">
+                <p class="hidden text-white opacity-60 text-center text-sm md:absolute md:right-96 md:-top-16 md:max-w-xl md:text-start md:leading-[28px] md:block">
+                    We have data on the most played games this year and as a result, games about battles and wars are very popular with gamers at this time, so we recommend <span class="md:block">this game into your cart to be used as your game.</span>
+                </p>
+                <img class="md:absolute md:-right-10 -top-10" src="./Assets/Icons/GAMES OF THE WORLD.svg" alt="games-world" />
+            </div>
+            <div class="py-12 flex flex-row justify-center items-end gap-3 w-full">
+              <div class="w-[30%] relative -top-[40px] md:-top-[100px]">
+                <img class="w-[95%] block mx-auto" src="./Assets/Photos/Rectangle 17.png" alt="poster" />
+              </div>
+              <div class="w-[25%]">
+                <img class="w-[95%] block mx-auto" src="./Assets/Photos/Rectangle 18.png" alt="poster" />
+              </div>
+              <div class="w-[25%]">
+                <img class="w-[95%] block mx-auto" src="./Assets/Photos/Rectangle 90.png" alt="poster" />
+              </div>
+            </div>
+        </div>
+
+        <!-- GET STARTED CONTAINER -->
+        <div class="hidden md:block relative">
+            <!-- <img class="w-full h-full object-cover absolute bg-cover" src="./Assets/Photos/Rectangle 606.png" alt=""> -->
+            <div class="absolute w-full h-full bg-no-repeat bg-cover bg-top bg-center bg-left bg-right" style="background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(./Assets/Photos/Rectangle\ 606.png);"></div>
+            <div class="flex flex-col gap-5 py-10">
+                <h1 class="text-white opacity-90 font-semibold text-center mx-auto text-2xl md:text-5xl md:max-w-xl md:leading-snug">
+                    Have An Unforgettable Experience
+                </h1>
+                <p class="text-white opacity-60 text-center mx-auto text-sm md:text-lg md:max-w-md">
+                    Have an unforgettable experience and play now to get attractive promos
+                </p>
+                <button class="bg-[#f4694e] opacity-90 mx-auto text-white px-10 py-4 font-semibold md:hover:outline md:hover-outline-2 md:hover:outline-white md:hover:bg-transparent">
+                    Get Started
+                </button>
+            </div>
+        </div>
+        <!-- DUPLICATE -->
+        <div class="flex flex-col gap-5 md:hidden">
+            <img src="./Assets/Photos/Rectangle 606.png" alt="">
+            <h1 class="text-white font-semibold text-center mx-auto text-2xl">
+                Have An Unforgettable Experience
+            </h1>
+            <p class="text-white opacity-60 text-center mx-auto text-sm">
+                Have an unforgettable experience and play now to get attractive promos
+            </p>
+            <button class="bg-[#f4694e] mx-auto text-white px-10 py-4 font-semibold md:hover:outline md:hover-outline-2 md:hover:outline-white md:hover:bg-transparent">
+                Get Started
+            </button>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="pl-10 sm:pl-[20%] lg-pl-0 pt-20 pb-10 sm:px-10 lg:px-20 bg-[#000309] grid grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-6">
+        <!-- LOGO & SOCIAL HANDELS CONTAINER -->
+        <div>
+            <a href="index.html">
+                <img class="w-[50%]" src="./Assets/Icons/Logo.svg" alt="logo">
+            </a>
+            <p class="text-[#616367] text-xs font-medium py-4 cursor-pointer">
+                Play lots of games here and subscribe right away
+            </p>
+            <!-- SOCIAL HANDELS -->
+            <div class="flex">
+                <img class="pr-4 w-12 cursor-pointer cursor-pointer" src="./Assets/Icons/facebook.svg" alt="facebook">
+                <img class="pr-4 w-12 cursor-pointer cursor-pointer" src="./Assets/Icons/instagram.svg" alt="instagram">
+                <img class="pr-4 w-12 cursor-pointer cursor-pointer" src="./Assets/Icons/twitter.svg" alt="twitter">
+            </div>
+        </div>
+        <!-- ARTICLES -->
+        <div>
+            <h3 class="text-[#dfe0e0] font-semibold text-sm md:hover:cursor-pointer md:hover:text-[#f4694e]">
+                    Articles
+                </h3>
+            <ul class="text-[#616367] text-sm font-medium pt-3 space-y-1">
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Crowfunding</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Website donations</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Carreers</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Event registrations</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Newsrooms</a>
+                </li>
+            </ul>
+        </div>
+        <!-- LEAGUES -->
+        <div>
+            <h3 class="text-[#dfe0e0] font-semibold text-sm md:hover:cursor-pointer md:hover:text-[#f4694e]">
+                Leagues
+            </h3>
+            <ul class="text-[#616367] text-sm font-medium pt-3 space-y-1">
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Our story</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Community driven</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Our customer</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Expert support</a>
+                </li>
+            </ul>
+        </div>
+        <!-- TEAM -->
+        <div>
+            <h3 class="text-[#dfe0e0] font-semibold text-sm md:hover:cursor-pointer md:hover:text-[#f4694e]">
+                Team
+            </h3>
+            <ul class="text-[#616367] text-sm font-medium pt-3 space-y-1">
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">About us</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">FAQ</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Privacy & Policy</a>
+                </li>
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">Help</a>
+                </li>
+            </ul>
+        </div>
+        <!-- GET IN TOUCH -->
+        <div>
+            <h3 class="text-[#dfe0e0] font-semibold text-sm md:hover:cursor-pointer md:hover:text-[#f4694e]">
+                Get in touch
+            </h3>
+            <ul class="text-[#616367] text-sm font-medium pt-3 space-y-1">
+                <li>
+                    <a class="lg:hover:text-white ease-in-out duration-300" href="">(704) 555-0127</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+</html>
