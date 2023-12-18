@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        html {
+            font-family: 'Poppins', 'san-serif';
+            overflow-x: hidden;
+        }
+      </style>
+    <title>Real Estate Landing Page</title>
+</head>
+<body class="overflow-x-hidden bg-[#f5f7fa]">
+    <!-- HERO WRAPPER -->
+    <section>
+        <!-- BACKGROUND IMAGE -->
+        <div class="h-[80vh] bg-cover bg-center bg-no-repeat md:h-[110vh]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./Assets/Photos/mainBackground.png);">
+            <!-- NAV-BAR -->
+            <nav class="flex justify-between items-center p-5 md:px-40 md:py-10">
+                <!-- LOGO -->
+                <div>
+                    <img class="w-[70%] md:w-[90%]" src="./Assets/Icons/Logo.svg" alt="logo">
+                </div>
+                <!-- NAVIGATION MENU -->
+                <div class="hidden md:flex justify-between items-center gap-20">
+                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Location</a>
+                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Blogs</a>
+                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Testimonials</a>
+                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Contact</a>
+                </div>
+            </nav>
+
+            <!-- UNERLINE DIV -->
+            <div class="mx-5 bg-white opacity-70 h-[1px] rounded-full md:mx-24 md:opacity-30"></div>
+
+            <!-- HERO CONTAINER -->
+            <div class="flex flex-col gap-10 py-10 px-5 md:gap-10 md:px-40 md:py-32 md:gap-12">
+                <!-- HEADING -->
+                <h1 class="text-white font-bold text-4xl md:text-7xl md:leading-tight">
+                    <span class="block">Home That Makes</span>
+                    You Living Life!
+                </h1>
+                <!-- PARAGRAPH -->
+                <p class="text-white opacity-70 md:text-xl">
+                    <span class="block">Are you looking for amazing Real estate? Don't</span>
+                    worry! We got it for you!
+                </p>
+                <!-- BUTTON -->
+                <div>
+                    <button class="text-white font-semibold bg-[#6563e9] px-7 py-3 rounded-full text-lg md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:px-12 md:py-5">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MID SECTION -->
+    <section class="space-y-10">
+        <!-- LOGO WRAPPER -->
+        <div class="mx-8 p-5 -translate-y-1/2 shadow-lg rounded-3xl bg-white flex gap-5 flex-wrap justify-between items-center md:px-40 md:py-20">
+            <img class="w-[40%] md:w-[15%]" src="./Assets/Icons/logoName.svg" alt="logoName">
+            <img class="w-[40%] md:w-[15%]" src="./Assets/Icons/logoName.svg" alt="logoName">
+            <img class="w-[40%] md:w-[15%]" src="./Assets/Icons/logoName.svg" alt="logoName">
+            <img class="w-[40%] md:w-[15%]" src="./Assets/Icons/logoName.svg" alt="logoName">
+            <img class="hidden md:block md:w-[15%]" src="./Assets/Icons/logoName.svg" alt="logoName">
+        </div>
+
+        <!-- HEADING -->
+        <h2 class="text-black mx-5 text-center font-bold text-4xl md:text-7xl">
+            <span class="block">Out Best Estate, </span>
+            are Modern!
+        </h2>
+        
+        <!-- CARD CONTAINER/ MAIN FLEX WRAPPER -->
+        <div class="px-5 space-y-24 mx-auto flex flex-col items-center ">
+            <!-- FLEX CONTAINER 1 -->
+            <div class="space-y-24 md:flex md:gap-5">
+                <!-- CARD 1 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-14" style="background-image: url(./Photos/cardImage1.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Mixtownia</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$205,500</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover" style="background-image: url(./Photos/cardImage2.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Mirtawan</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$102,200</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-10" style="background-image: url(./Photos/cardImage3.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Wartawan</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$135,900</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FLEX CONTAINER 2 -->
+            <div class="space-y-24 md:flex md:gap-5">
+                <!-- CARD 4 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-32" style="background-image: url(./Photos/cardImage4.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Mixtownia</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$205,500</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 5 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover" style="background-image: url(./Photos/cardImage5.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Mirtawan</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$102,200</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 6 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:-top-10" style="background-image: url(./Photos/cardImage6.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Wartawan</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$135,900</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FLEX CONTAINER 3 -->
+            <div class="space-y-24 md:flex md:gap-5">
+                <!-- CARD 7 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-12" style="background-image: url(./Photos/cardImage7.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Mixtownia</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$205,500</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 8 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:-top-2" style="background-image: url(./Photos/cardImage8.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Mirtawan</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$102,200</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 9 -->
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-8" style="background-image: url(./Photos/cardImage9.png);">
+                    <!-- DESCRIPTION -->
+                    <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
+                        <!-- NAME & PRICE -->
+                        <div class="space-y-2">
+                            <p class="text-black font-bold text-2xl">Wartawan</p>
+                            <p class="text-[#6563e9] font-bold text-xl">$135,900</p>
+                        </div>
+                        <!-- DETAIL BUTTON -->
+                        <div>
+                            <button class="bg-[#6563e9] text-white font-semibold text-lg rounded-full px-8 py-3 md:duration-200 md:ease-in md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9]">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MODERN & UNIQUE HOUSE SECTION -->
+    <section class="py-40 space-y-24 md:space-y-72 md:mt-32">
+        <!-- MODERN HOUSE -->
+        <div class="relative flex flex-col justify-center md:flex-row md:w-full">
+            <div class="md:w-1/2">
+                <div class="absolute left-[71px] -top-[20px]  h-[70vw] w-[80%] max-w-[490px] max-h-[490px] z-10 bg-no-repeat bg-cover bg-center rounded-[40px] md:left-[111px] md:-top-14 md:max-w-[500px]" style="background-image: url(./Photos/featuresImage1.png);"></div>
+                <img src="./Icons/featureImageBg1.svg" alt="" class="modern-house-bg house-bg md:absolute left-0  relative max-w-[690px] w-[110%] -left-5"/>
+            </div>
+            <div class="flex flex-col justify-center max-w-[510px] gap-5 px-5 md:gap-10 md:w-1/2">
+                <h1 class="house-heading  text-black font-bold text-4xl md:text-6xl">
+                    <span class="block">Modern, Trendy, </span>
+                    Affordable!
+                </h1>
+                <p class="text-black opacity-70 text-md md:text-lg">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                    Atque corrupti, quas quaerat eligendi beatae labore.
+                </p>
+                <div>
+                    <button class="bg-[#6563e9] text-white text-lg font-medium p-3 rounded-full md:px-10 md:py-4 md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9] md:duration-200 md:ease-in">
+                        Early Bird Book
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- UNIQUE HOUSE -->
+        <div class="space-y-20 relative flex flex-col flex-end md:justify-between md:items-center items-end md:flex-row w-full">
+            <div class="flex flex-col gap-5 px-5 max-w-[510px] md:w-1/2 md:mx-auto">
+                <h1 class="text-black font-bold text-4xl md:text-6xl">
+                    <span class="block">Unique House </span>
+                    for Long Term!
+                </h1>
+                <p class="text-black opacity-70 text-md md:text-lg">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</span>
+                    Atque corrupti, quas quaerat eligendi beatae labore.
+                </p>
+                <div>
+                    <button class="bg-[#6563e9] text-white text-lg font-medium p-3 rounded-full md:px-10 md:py-4 md:hover:bg-white md:hover:text-[#6563e9] md:hover:outline md:hover:outline-2 md:hover:outline-[#6563e9] md:duration-200 md:ease-in">
+                        Early Bird Book
+                    </button>
+                </div>
+            </div>
+            <div class="relative flex justify-end md:w-1/2">
+                <div class="absolute right-[70px] bottom-[80px] h-[70vw] w-[80%] max-w-[490px] max-h-[490px] rounded-[40px] z-10 bg-no-repeat bg-cover bg-center md:right-[125px] md:bottom-32 md:max-w-[520px] " style="background-image: url(./Photos/featuresImage2.png);"></div>
+                <img src="./Icons/featureImageBg2.png" alt="" class="unique-house-bg house-bg"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="px-5 md:px-20">
+        <div class="bg-[#6563e9] p-5 md:rounded-[80px] rounded-[40px] flex flex-col items-center justify-between gap-5 md:py-20">
+            <h2 class="mx-auto text-center text-white font-bold text-2xl md:hidden"><span class="block">Subscribe to Our</span> <span class="block">Newsletter For Weekly</span>Article Update.</h2>
+            <h2 class="hidden mx-auto text-center text-white font-bold text-2xl md:text-7xl md:leading-snug md:block"><span class="block">Subscribe to Our Newsletter</span>For Weekly Article Update.</h2>
+            <p class="text-white mx-auto text-center md:hidden">We have real estate-related blog so we can share our thought and rutinity in our blog that updated weekly. We will not spam you, we promise</p>
+            <p class="hidden text-white mx-auto text-center text-xl opacity-70 md:block"><span class="block">We have real estate-related blog so we can share our thought and rutinity in</span>our blog that updated weekly. We will not spam you, we promise</p>
+            <div class="flex flex-col items-center gap-5 md:flex-row md:mt-10">
+                <form action="get">
+                    <div class="flex items-center gap-2 bg-[#5654d1] px-5 h-10 rounded-full md:w-[30rem] md:h-14 md:space-x-2">
+                        <img class="" src="./icons/mail.png" alt="mail">
+                        <input class="bg-transparent outline-0 text-white opacity-70 " type="text" placeholder="Enter your e-mail address">
+                    </div>
+                </form>
+                <div>
+                    <button class="px-10 py-3 bg-white rounded-full text-[#6563e9] text-xl font-semibold md:hover:bg-[#6563e9] md:hover:text-white md:hover:outline md:hover:outline-2 md:hover:outline-white md:duration-200 md:ease-in">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-32 mb-10 md:mb-24">
+        <!-- FOOTER CONTAINER -->
+        <div class="space-y-10 px-5 md:flex md:px-32 md:flex md:items-center">
+            <!-- LEFT SIDE -->
+            <div class="space-y-5 flex flex-col items-center md:w-1/2 md:items-start md:space-y-10 ">
+                <!-- LOGO & SOCIAL HANDELS -->
+                <div class="space-y-4 md:space-y-6">
+                    <div>
+                        <img src="./Icons/Logo.svg" alt="logo">
+                    </div>
+                    <div class="flex gap-2 md:gap-5">
+                        <img class="md:hover:cursor-pointer" src="./Icons/facebook.png" alt="fb">
+                        <img class="md:hover:cursor-pointer" src="./Icons/twitter.png" alt="twitter">
+                        <img class="md:hover:cursor-pointer" src="./Icons/instagram.png" alt="insta">
+                    </div>
+                </div>
+                <p class="text-black opacity-70 text-lg md:text-xl">
+                    <span class="block">2022 Award winning Real estate</span>
+                    and Lorem ipsum dolor sit amet
+                </p>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="flex justify-between items-center max-w-md mx-auto md:w-1/2">
+                <div class="space-y-5">
+                  <h3 class="text-black font-semibold text-2xl">Location</h3>
+                  <ul class="space-y-2 md:space-y-5">
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">America</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Asia</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Europe</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Africa</a></li>
+                  </ul>
+                </div>
+                <div class="space-y-5">
+                  <h3 class="text-black font-semibold text-2xl">Contact</h3>
+                  <ul class="space-y-2 md:space-y-5">
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">About Me</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Teams</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Profile</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">FAQ</a></li>
+                  </ul>
+                </div>
+                <div class="space-y-5">
+                  <h3 class="text-black font-semibold text-2xl">Legals</h3>
+                  <ul class="space-y-2 md:space-y-5">
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Privacy</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Disclaimer</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Terms</a></li>
+                    <li class="text-medium text-black opacity-70 text-lg md:text-xl md:hover:text-[#6563e9] md:hover:opacity-100"><a href="#">Company</a></li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
