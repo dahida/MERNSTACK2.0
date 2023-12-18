@@ -6,41 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Mulish:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+   
         html {
             font-family: 'Poppins', 'san-serif';
             overflow-x: hidden;
         }
-      </style>
+    </style>
     <title>Real Estate Landing Page</title>
 </head>
 <body class="overflow-x-hidden bg-[#f5f7fa]">
     <!-- HERO WRAPPER -->
     <section>
         <!-- BACKGROUND IMAGE -->
-        <div class="h-[80vh] bg-cover bg-center bg-no-repeat md:h-[110vh]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./Assets/Photos/mainBackground.png);">
+        <div class="h-[80vh] bg-cover bg-center bg-no-repeat md:h-[131vh]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./Assets/Photos/mainBackground.png);">
             <!-- NAV-BAR -->
-            <nav class="flex justify-between items-center p-5 md:px-40 md:py-10">
+            <nav class="flex justify-between items-center p-5 md:px-48 md:py-16">
                 <!-- LOGO -->
                 <div>
-                    <img class="w-[70%] md:w-[90%]" src="./Assets/Icons/Logo.svg" alt="logo">
+                    <img class="w-[70%] md:w-[100%]" src="./Assets/Icons/Logo.svg" alt="logo">
                 </div>
                 <!-- NAVIGATION MENU -->
-                <div class="hidden md:flex justify-between items-center gap-20">
-                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Location</a>
-                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Blogs</a>
-                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Testimonials</a>
-                    <a href="#" class="text-white opacity-70 text-xl md:hover:opacity-100">Contact</a>
+                <div class="hidden md:flex md:px-5 justify-between items-center gap-20">
+                    <a href="#" class="text-white opacity-70 text-2xl md:hover:opacity-100">Location</a>
+                    <a href="#" class="text-white opacity-70 text-2xl md:hover:opacity-100">Blogs</a>
+                    <a href="#" class="text-white opacity-70 text-2xl md:hover:opacity-100">Testimonials</a>
+                    <a href="#" class="text-white opacity-70 text-2xl md:hover:opacity-100">Contact</a>
                 </div>
             </nav>
 
             <!-- UNERLINE DIV -->
-            <div class="mx-5 bg-white opacity-70 h-[1px] rounded-full md:mx-24 md:opacity-30"></div>
+            <div class="mx-5 bg-white opacity-70 h-[3px] rounded-full md:mx-20 md:opacity-30"></div>
 
             <!-- HERO CONTAINER -->
-            <div class="flex flex-col gap-10 py-10 px-5 md:gap-10 md:px-40 md:py-32 md:gap-12">
+            <div class="flex flex-col gap-10 py-7 px-5 md:gap-10 md:px-40 md:py-44 md:gap-12">
                 <!-- HEADING -->
-                <h1 class="text-white font-bold text-4xl md:text-7xl md:leading-tight">
+                <h1 class="text-white font-[Manrope] font-bold  md:text-8xl md:leading-tight">
                     <span class="block">Home That Makes</span>
                     You Living Life!
                 </h1>
@@ -79,7 +80,7 @@
             <!-- FLEX CONTAINER 1 -->
             <div class="space-y-24 md:flex md:gap-5">
                 <!-- CARD 1 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-14" style="background-image: url(./Photos/cardImage1.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-14" style="background-image: url(./Assets/Photos/cardImage1.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -94,7 +95,7 @@
                     </div>
                 </div>
                 <!-- CARD 2 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover" style="background-image: url(./Photos/cardImage2.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover" style="background-image: url(./Assets/Photos/cardImage2.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -109,7 +110,7 @@
                     </div>
                 </div>
                 <!-- CARD 3 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-10" style="background-image: url(./Photos/cardImage3.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-10" style="background-image: url(./Assets/Photos/cardImage3.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -128,7 +129,7 @@
             <!-- FLEX CONTAINER 2 -->
             <div class="space-y-24 md:flex md:gap-5">
                 <!-- CARD 4 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-32" style="background-image: url(./Photos/cardImage4.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-32" style="background-image: url(./Assets/Photos/cardImage4.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -143,7 +144,7 @@
                     </div>
                 </div>
                 <!-- CARD 5 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover" style="background-image: url(./Photos/cardImage5.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover" style="background-image: url(./Assets/Photos/cardImage5.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -158,7 +159,7 @@
                     </div>
                 </div>
                 <!-- CARD 6 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:-top-10" style="background-image: url(./Photos/cardImage6.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:-top-10" style="background-image: url(./Assets/Photos/cardImage6.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -177,7 +178,7 @@
             <!-- FLEX CONTAINER 3 -->
             <div class="space-y-24 md:flex md:gap-5">
                 <!-- CARD 7 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-12" style="background-image: url(./Photos/cardImage7.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-12" style="background-image: url(./Assets/Photos/cardImage7.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -192,7 +193,7 @@
                     </div>
                 </div>
                 <!-- CARD 8 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:-top-2" style="background-image: url(./Photos/cardImage8.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:-top-2" style="background-image: url(./Assets/Photos/cardImage8.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -207,7 +208,7 @@
                     </div>
                 </div>
                 <!-- CARD 9 -->
-                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-8" style="background-image: url(./Photos/cardImage9.png);">
+                <div class="relative h-[380px] w-[350px] md:h-[400px] md:w-[380px] rounded-3xl bg-center bg-cover md:top-8" style="background-image: url(./Assets/Photos/cardImage9.png);">
                     <!-- DESCRIPTION -->
                     <div class="absolute bottom-0 mx-5 p-3 translate-y-1/2 shadow-lg flex justify-between items-center rounded-2xl bg-white md:p-5 w-[312px] md:w-[340px]">
                         <!-- NAME & PRICE -->
@@ -230,8 +231,8 @@
         <!-- MODERN HOUSE -->
         <div class="relative flex flex-col justify-center md:flex-row md:w-full">
             <div class="md:w-1/2">
-                <div class="absolute left-[71px] -top-[20px]  h-[70vw] w-[80%] max-w-[490px] max-h-[490px] z-10 bg-no-repeat bg-cover bg-center rounded-[40px] md:left-[111px] md:-top-14 md:max-w-[500px]" style="background-image: url(./Photos/featuresImage1.png);"></div>
-                <img src="./Icons/featureImageBg1.svg" alt="" class="modern-house-bg house-bg md:absolute left-0  relative max-w-[690px] w-[110%] -left-5"/>
+                <div class="absolute left-[71px] -top-[20px]  h-[70vw] w-[80%] max-w-[490px] max-h-[490px] z-10 bg-no-repeat bg-cover bg-center rounded-[40px] md:left-[111px] md:-top-14 md:max-w-[500px]" style="background-image: url(./Assets/Photos/featuresImage1.png);"></div>
+                <img src="./Assets/Icons/featureImageBg1.svg" alt="" class="modern-house-bg house-bg md:absolute left-0  relative max-w-[690px] w-[110%] -left-5"/>
             </div>
             <div class="flex flex-col justify-center max-w-[510px] gap-5 px-5 md:gap-10 md:w-1/2">
                 <h1 class="house-heading  text-black font-bold text-4xl md:text-6xl">
@@ -268,8 +269,8 @@
                 </div>
             </div>
             <div class="relative flex justify-end md:w-1/2">
-                <div class="absolute right-[70px] bottom-[80px] h-[70vw] w-[80%] max-w-[490px] max-h-[490px] rounded-[40px] z-10 bg-no-repeat bg-cover bg-center md:right-[125px] md:bottom-32 md:max-w-[520px] " style="background-image: url(./Photos/featuresImage2.png);"></div>
-                <img src="./Icons/featureImageBg2.png" alt="" class="unique-house-bg house-bg"/>
+                <div class="absolute right-[70px] bottom-[80px] h-[70vw] w-[80%] max-w-[490px] max-h-[490px] rounded-[40px] z-10 bg-no-repeat bg-cover bg-center md:right-[125px] md:bottom-32 md:max-w-[520px] " style="background-image: url(./Assets/Photos/featuresImage2.png);"></div>
+                <img src="./Assets/Icons/featureImageBg2.png" alt="" class="unique-house-bg house-bg"/>
             </div>
         </div>
     </section>
@@ -284,7 +285,7 @@
             <div class="flex flex-col items-center gap-5 md:flex-row md:mt-10">
                 <form action="get">
                     <div class="flex items-center gap-2 bg-[#5654d1] px-5 h-10 rounded-full md:w-[30rem] md:h-14 md:space-x-2">
-                        <img class="" src="./icons/mail.png" alt="mail">
+                        <img class="" src="./Assets/Icons/mail.png" alt="mail">
                         <input class="bg-transparent outline-0 text-white opacity-70 " type="text" placeholder="Enter your e-mail address">
                     </div>
                 </form>
@@ -304,12 +305,12 @@
                 <!-- LOGO & SOCIAL HANDELS -->
                 <div class="space-y-4 md:space-y-6">
                     <div>
-                        <img src="./Icons/Logo.svg" alt="logo">
+                        <img src="./Assets/Icons/Logo.svg" alt="logo">
                     </div>
                     <div class="flex gap-2 md:gap-5">
-                        <img class="md:hover:cursor-pointer" src="./Icons/facebook.png" alt="fb">
-                        <img class="md:hover:cursor-pointer" src="./Icons/twitter.png" alt="twitter">
-                        <img class="md:hover:cursor-pointer" src="./Icons/instagram.png" alt="insta">
+                        <img class="md:hover:cursor-pointer" src="./Assets/Icons/facebook.png" alt="fb">
+                        <img class="md:hover:cursor-pointer" src="./Assets/Icons/twitter.png" alt="twitter">
+                        <img class="md:hover:cursor-pointer" src="./Assets/Icons/instagram.png" alt="insta">
                     </div>
                 </div>
                 <p class="text-black opacity-70 text-lg md:text-xl">
